@@ -1,0 +1,16 @@
+[project]
+name = "logitguard"
+version = "0.0.1"
+description = "Deterministische Sicherheitsschranke im Dekodierschritt lokaler Sprachmodelle"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Mark Wernsdorfer" }]
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
